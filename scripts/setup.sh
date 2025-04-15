@@ -48,11 +48,11 @@ main() {
 
     # Setup nodenv
     setup_nodenv || {
-        log "Failed to setup yarn environment"
+        log "Failed to setup nodenv"
         exit 1
-		}
+    }
 
-		log "Finished: Setup Home ⌁ ⚡️"
+    log "Finished: Setup Home ⌁ ⚡️"
 
     echo
 }
